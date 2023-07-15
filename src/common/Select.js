@@ -15,7 +15,7 @@ const Select = ({
         {value || placeholder}
         <span>{"˅"}</span>
       </li>
-      <div className="optionBox">
+      <div className="option-box">
         {openSelect &&
           options.map((option, idx) => (
             <li
@@ -56,7 +56,7 @@ export const SelectStyle = styled.div`
     font-size: 2.5rem;
   }
 
-  .optionBox {
+  .option-box {
     border: 1px solid lightgray;
     border-radius: 25px;
     margin-top: 10px;

@@ -2,7 +2,7 @@ import React from "react";
 import AuthTemplate from "../../containers/auth/AuthTemplate";
 import RegisterContainer from "../../containers/auth/RegisterContainer";
 
-const RegisterPage = ({ children }) => {
+const RegisterPage = () => {
   return (
     <AuthTemplate>
       <RegisterContainer />
