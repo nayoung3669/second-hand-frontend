@@ -33,10 +33,10 @@ const Footer = () => {
           to={"https://github.com/nayoung3669/second-hand-frontend"}
           className="github"
         >
-          <FaGithub /> frontend
+          <FaGithub /> Fe
         </Link>
         <Link to={"https://github.com/NHclub/used-market"} className="github">
-          <FaGithub /> backend
+          <FaGithub /> Be
         </Link>
       </div>
     </FooterBlock>
